@@ -15,5 +15,8 @@
     data: () => ({
       
     }),
+    beforeCreate(){
+      location.href = "signin";
+    }
   }
 </script>

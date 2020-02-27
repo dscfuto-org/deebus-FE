@@ -4,8 +4,8 @@
         <v-card class="pa-10 ml-5" min-width="350" flat>
         <!-- <v-img src="@/assets/logo-blue.png" width="80"></v-img> -->
         <v-img src="../assets/logo-blue.png" width="80"></v-img>
-        <div class="display-1 font-weight-bold" id="get-started">Get started</div>
-        <div class="subtitle">Sign up with DeeBus</div>
+        <div class="" id="get-started">Get started</div>
+        <div class="" id="bottom-header">Sign up with DeeBus</div>
         <v-text-field
         outlined=""
         placeholder="Full Name"
@@ -65,12 +65,15 @@
 
 <style scoped>
 #account-text{
+  font-family: ubuntu;
   font-size:12px;
   font-weight: bold;
 }
  
 #get-started{
 font-family:ubuntu;
+font-size: 30px;
+font-weight: bold;
 }
 
 #full-name{
@@ -79,6 +82,9 @@ font-family:ubuntu;
 
 #button-text{
   font-size:13px;
+  font-family: ubuntu;
+}
+#bottom-header{
   font-family: ubuntu;
 }
 </style>
