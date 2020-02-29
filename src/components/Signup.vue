@@ -13,8 +13,6 @@
         color="#6372C1"
         dense
         id="full-name"
-        
-        
         >
         </v-text-field>
         <v-text-field
@@ -46,7 +44,7 @@
       </v-row>
       <div class="mt-4" id="account-text">
         Already have an account?
-        <a href="signin" class="#6372C1--text">Sign in</a>
+        <a href="signin" id="link">Sign in</a>
       </div>
       </v-card>
       </v-row>
@@ -68,6 +66,10 @@
   font-family: ubuntu;
   font-size:12px;
   font-weight: bold;
+}
+
+#link{
+  color: #6372C1;
 }
  
 #get-started{

@@ -36,7 +36,7 @@
       </v-row>
       <div class="mt-4" id="account-text">
         New to Deebus?
-        <a href="signup" class="#6372C1--text">Sign up</a>
+        <a href="signup" id="link">Sign up</a>
       </div>
       </v-card>
       </v-row>
@@ -76,5 +76,8 @@ font-weight: bold;
 }
 #bottom-header{
   font-family: ubuntu;
+}
+#link{
+  color: #6372C1;
 }
 </style>
